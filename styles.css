@@ -237,3 +237,16 @@ input[type="submit"]:focus-visible {
         font-size: 1.8rem;
     }
 }
+
+/* JavaScript form validation messages */
+.error-message {
+    display: block;
+    color: #A64B2A;
+    font-size: 0.9rem;
+    margin-top: 6px;
+}
+
+input[aria-invalid="true"],
+textarea[aria-invalid="true"] {
+    border: 2px solid #A64B2A;
+}
